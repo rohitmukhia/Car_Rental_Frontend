@@ -22,7 +22,6 @@ const App = () => {
     <>
       {showLogin && <Login setShowLogin={setShowLogin} />}
       {!isOwner && <Navbar setShowLogin={setShowLogin} />}
-      <p>Test Git</p>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cars" element={<Cars />} />
